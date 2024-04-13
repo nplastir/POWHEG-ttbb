@@ -87,7 +87,7 @@ In summary:
 - `-t` specifies a name tag for the run to differentiate it from other productions.
 
 In addition, in this initialization step, the following factors can be changed:
-- `--mur` specifies the renormaliation scale.
+- `--mur` specifies the renormalization scale.
 - `--muf` specifies the factorization scale.
 - `--mass` specifies the mass of the top quark.
 - `--pdf` specifies the pdf of the proton.

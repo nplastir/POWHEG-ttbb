@@ -418,7 +418,7 @@ python3 ../POWHEG-MC-Event-generation/run.py -w [PATH_TO_WORKDIR] -S 4 -n [NBATC
 -----------------
 # Useful tips and links
 
-- For the 10 GB in your AFS space, you can approximatelly run about 3 jobs (1000 jobs/1000 events each) simultanesously without having any storage problems.
+- For the 10 GB in your AFS space, you can approximatelly run about 3 jobs (1000 jobs/1000 events each) simultaneously without having any storage problems.
 - Do not merge two different files simutaneously! You need to wait for the script to move all the files and count the events for the first job and then go to the second one.
 - During merging there is a possibility to stumbe across the error message `Input/Output error`. This can be solved by manually unziping the files `gzip -d "file.lhe.gz"`. If the file does not have the suffix `.gz` you can simply rename the files with the suffix and then unzip them.
 - In order to have a persistent tmux session on lxplus9, you need to run `systemctl --user start tmux.service` and then `tmux a` to attach. (More info [here](https://hsf-training.github.io/analysis-essentials/shell-extras/persistent-screen.html))
